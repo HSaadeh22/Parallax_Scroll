@@ -1,7 +1,9 @@
-// const parallaxEffect = document.querySelector("#projectNames")
+let p1div = document.querySelector("#p1div");
+let p3div = document.querySelector("#p3div");
 
-// window.addEventListener("scroll", ()=> {
-//     let offset = window.scrollY;
+window.addEventListener("scroll", ()=> {
+    let offset = window.scrollY;
 
-//     parallaxEffect.style.backgroundPositionY = offset * 1.7 + "px";
-// } )
+    p1div.style.backgroundPositionY = offset * -0.6 + "px";
+    p3div.style.backgroundPositionY = offset * -0.6 + "px";
+} )

@@ -43,6 +43,7 @@ div:nth-child(3) {
 
 div:nth-child(4) {
     background-image: url(code_stock.webp);
+    /* background-image: url(code_stock_2.jpg); */
     background-attachment: fixed;
     background-size: cover;
 }
